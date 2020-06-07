@@ -1,0 +1,1104 @@
+## intent:tell_me
+- tell me corona virus cases
+- corona virus cases
+- show me corona virus cases 
+- tell me corona caese
+- cases 
+- corona
+
+## intent:country_search
+- tell me corona cases in [America]{"entity": "country", "value": "United States of America"}
+- tell me corona cases in [uk]{"entity": "country", "value": "United Kingdom"}
+- tell me corona cases in [canada](country)
+- tell me corona cases in [United States of America](country)
+- tell me corona cases in [USA](country)
+- tell me corona cases in [pakistan](country)
+- tell me corona cases in [india](country)
+- corona cases in [Bahamas](country)
+- corona cases in [Bolivia](country)
+- corona cases in [United States of America](country)
+- cases in [china](country)
+- cases in [Croatia](country)
+- cases in [cuba](country)
+- [Japan](country)
+- [india](country)
+- [africa](country)
+- [usa](country)
+- [us]{"entity": "country", "value": "United States of America"}
+- [America]{"entity": "country", "value": "United States of America"}
+- [uk]{"entity": "country", "value": "United Kingdom"}
+
+
+## intent:total_search
+- [total](total) corona virus cases
+- [total](total) cases in india
+- [total](total) cases
+- [all](total) cases
+
+
+## intent:search_provider
+- tell me corona cases in [dilli]{"entity": "location", "value": "Delhi"}
+- tell me corona cases in [rajasthan](location)
+- tell me corona cases in [mumbai](location)
+- tell me corona cases in [goa](location)
+- corona cases in [haryana](location)
+- corona cases in [assam](location)
+- corona cases in [gujrat]{"entity": "location", "value": "Gujarat"}
+- corona cases in [kerela](location)
+- cases in [delhi](location)
+- cases in [punjab](location)
+- cases in [haryana](location)
+- [delhi](location)
+- [goa](location)
+- [gujrat](location)
+
+
+## intent:city_search
+- tell me corona cases in [Vadodara]{"entity": "city", "value": "Vadodara"}
+- tell me corona cases in [mumbai]{"entity": "city", "value": "Mumbai"}
+- tell me corona cases in [Kolkata](city)
+- tell me corona cases in [Bengaluru]{"entity": "city", "value": "Bengaluru Urban"}
+- tell me corona cases in [Gandhinagar](city)
+- tell me corona cases in [pune](city)
+- tell me corona cases in [Indore](city)
+- corona cases in [Vadodara](city)
+- corona cases in [Amroha](city)
+- corona cases in [Bijnor](city)
+- cases in [Jabalpur](city)
+- cases in [Pratapgarh](city)
+- cases in [Amroha](city)
+- [Indore](city)
+- [baroda](city)
+- [pune](city)
+- [punjab](city)
+- [mumbai](city)
+- [gandhinagar](city)
+- [kolkata](city)
+
+
+## synonym:Mumbai
+- mumbai
+- bombay
+
+## synonym:Vadodara
+- vadodra
+- baroda
+
+
+## synonym:Bengaluru Urban
+- bangalore
+- bengalore
+- bengluru
+- bangluru
+
+
+## synonym:United States of America
+- USA
+- usa
+- us
+- America
+- US 
+- United States
+
+## synonym:United Kingdom
+- UK
+- uk
+
+
+
+
+
+## intent:thanks
+- Thank you
+- Dhanywaad
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+
+
+
+
+## lookup:total
+- total
+- all
+
+
+## lookup:location
+- Andaman and Nicobar
+- Andhra Pradesh
+- Assam
+- Bihar
+- Chandigarh
+- Chhattisgarh
+- Dadra and Nagar Haveli
+- Daman and Diu
+- Delhi
+- Goa
+- Gujarat
+- Haryana
+- Himachal Pradesh
+- Jammu and Kashmir
+- Jharkhand
+- Karnataka
+- Kerala
+- Ladakh
+- Lakshadweep
+- Maharashtra
+- Manipur
+- Meghalaya
+- Mizoram
+- Madhya Pradesh
+- Nagaland
+- Odisha
+- Puducherry
+- Pondicherry
+- Punjab
+- Rajasthan
+- Sikkim
+- Tamil Nadu
+- Telengana
+- Tripura
+- Uttar Pradesh
+- Uttarakhand
+- West Bengal
+
+
+## lookup:country
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Australia
+- Austria
+- Austrian Empire
+- Azerbaijan
+- Baden
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Bavaria
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brazil
+- Brunei
+- Brunswick and Lüneburg
+- Bulgaria
+- Burkina Faso 
+- Burma
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Canada
+- Cayman Islands
+- Central African Republic
+- Central American Federation
+- Chad
+- Chile
+- China
+- Colombia
+- Comoros
+- Congo Free State, The
+- Costa Rica
+- Cote d’Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czechia
+- Czechoslovakia
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- France
+- Gabon
+- Gambia, The
+- Georgia
+- Germany
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea
+- Guinea-Bissau
+- Guyana
+- Haiti
+- Hanover
+- Hawaii
+- Hesse
+- Holy See
+- Honduras
+- Hungary
+- Iceland
+- India
+- Indonesia
+- Iran
+- Iraq
+- Ireland
+- Israel
+- Italy
+- Jamaica
+- Japan
+- Jordan
+- Kazakhstan
+- Kenya
+- Yugoslavia
+- Kiribati
+- Korea
+- Kosovo
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Mexico
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Namibia
+- Nauru
+- Nepal
+- Netherlands
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North German Confederation
+- North German Union
+- North Macedonia
+- Norway
+- Oldenburg
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Piedmont-Sardinia
+- Poland
+- Portugal
+- Qatar
+- South Korea
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Singapore
+- Slovakia
+- Slovenia
+- Solomon Islands, The
+- Somalia
+- South Africa
+- South Sudan
+- Spain
+- Sri Lanka
+- Sudan
+- Suriname
+- Sweden
+- Switzerland
+- Syria
+- Tajikistan
+- Tanzania
+- Texas
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- Uruguay
+- Uzbekistan
+- United States of America
+- Vanuatu
+- Venezuela
+- Vietnam
+- Württemberg
+- Yemen
+- Zambia
+- Zimbabwe
+
+
+
+
+## lookup:city
+- Nadia
+- Dhanbad
+- Mahabubnagar
+- Kota
+- Purba Bardhaman
+- Udalguri
+- Shrawasti
+- Sagar
+- Senapati
+- Koraput
+- Jalaun
+- Sheohar
+- Ernakulam
+- Aizawl
+- Chamoli
+- Thiruvallur
+- Dharmapuri
+- Ukhrul
+- Srikakulam
+- Narsinghpur
+- Hailakandi
+- Mau
+- Bhavnagar
+- Porbandar
+- Ahmedabad
+- Yavatmal
+- Aligarh
+- Foreign Evacuees
+- Panna
+- Kannur
+- Dang
+- Almora
+- Koriya
+- Anuppur
+- West Karbi Anglong
+- Begusarai
+- Madhepura
+- Sheopur
+- Maharajganj
+- Panipat
+- Dindori
+- Hardoi
+- Chengalpattu
+- Thanjavur
+- Paschim Medinipur
+- Karnal
+- Ajmer
+- Darjeeling
+- Sultanpur
+- Peddapalli
+- Other State
+- Araria
+- Jaipur
+- Kendujhar
+- Valsad
+- Faridabad
+- Vaishali
+- Sivasagar
+- Leh
+- Dakshin Dinajpur
+- Kapurthala
+- Karimganj
+- North East Delhi
+- South Salmara Mankachar
+- Nagapattinam
+- Sonipat
+- Kurukshetra
+- Moradabad
+- Mansa
+- Kannauj
+- Dimapur
+- Shivamogga
+- Tenkasi
+- Saraikela-Kharsawan
+- Rupnagar
+- Kallakurichi
+- Bankura
+- Gajapati
+- Puducherry
+- Hingoli
+- Railway Quarantine
+- Agra
+- Hyderabad
+- East Godavari
+- Botad
+- Sivaganga
+- North and Middle Andaman
+- Pali
+- Kulgam
+- Etah
+- Budaun
+- Jammu
+- Dadra and Nagar Haveli
+- East Delhi
+- Alirajpur
+- Gadchiroli
+- Karaikal
+- Adilabad
+- Nalanda
+- Pithoragarh
+- Satara
+- Unknown
+- West Delhi
+- Udham Singh Nagar
+- Karauli
+- Mandi
+- Amritsar
+- Sitapur
+- Dakshina Kannada
+- Seoni
+- Ambala
+- Jhargram
+- Doda
+- Rajsamand
+- Dhule
+- Bharuch
+- Neemuch
+- Palakkad
+- Bijnor
+- Dhemaji
+- Malkangiri
+- Bhadradri Kothagudem
+- Sonbhadra
+- Surat
+- Lucknow
+- Kottayam
+- Wardha
+- Gomati
+- Hathras
+- Satna
+- Kohima
+- Dindigul
+- Udaipur
+- Boudh
+- Barabanki
+- Birbhum
+- Lohardaga
+- Banaskantha
+- Una
+- Rajgarh
+- Jajpur
+- Howrah
+- Belagavi
+- Kalaburagi
+- Charaideo
+- Jamnagar
+- Hanumangarh
+- New Delhi
+- Haveri
+- Jaisalmer
+- Banda
+- Datia
+- Banka
+- South Goa
+- Salem
+- Akola
+- Farrukhabad
+- Patan
+- Auraiya
+- Bidar
+- Ballia
+- Shamli
+- Chamba
+- Sehore
+- Pulwama
+- Pilibhit
+- Haridwar
+- Harda
+- Mysuru
+- Gaurela Pendra Marwahi
+- Gopalganj
+- Fatehabad
+- Tumakuru
+- Hassan
+- Kolhapur
+- Kolar
+- Kargil
+- Sahibganj
+- Sonitpur
+- Tonk
+- Deogarh
+- Noney
+- Balod
+- Chennai
+- Bametara
+- Koderma
+- Arwal
+- Durg
+- Karimnagar
+- Vikarabad
+- Solapur
+- Deoria
+- Sri Muktsar Sahib
+- Chandrapur
+- Nagaur
+- Sipahijala
+- Amreli
+- Mahabubabad
+- Ballari
+- Gwalior
+- Bhilwara
+- Baghpat
+- Katihar
+- Samba
+- Panchkula
+- Katni
+- Thrissur
+- Nabarangapur
+- Kamrup Metropolitan
+- Kandhamal
+- Paschim Bardhaman
+- Guna
+- Purba Medinipur
+- Kasaragod
+- West Khasi Hills
+- Jhansi
+- Uttara Kannada
+- Siddharthnagar
+- Simdega
+- Thane
+- Bagalkote
+- Kheda
+- Erode
+- Chittorgarh
+- Hoshiarpur
+- Dumka
+- S.P.S. Nellore
+- Jogulamba Gadwal
+- Prayagraj
+- Cooch Behar
+- West Jaintia Hills
+- Hooghly
+- Kozhikode
+- Medchal Malkajgiri
+- Dhenkanal
+- Churachandpur
+- Anantapur
+- Jhabua
+- Y.S.R. Kadapa
+- Burhanpur
+- Firozabad
+- Rudraprayag
+- Patna
+- Ashoknagar
+- Chitrakoot
+- Giridih
+- Papum Pare
+- Hazaribagh
+- North West Delhi
+- Jalgaon
+- Betul
+- Bokaro
+- Kabeerdham
+- Evacuees
+- Ramanagara
+- Karur
+- Morena
+- Anand
+- Champawat
+- Darrang
+- Baramulla
+- Ranchi
+- Murshidabad
+- Rampur
+- Mungeli
+- Pudukkottai
+- South Tripura
+- Shivpuri
+- Bhojpur
+- Jagtial
+- Sundargarh
+- Bhind
+- Bulandshahr
+- Kupwara
+- Chikkaballapura
+- Siwan
+- Jagatsinghpur
+- Supaul
+- Ganjam
+- Davanagere
+- Kaithal
+- Imphal East
+- Kanpur Nagar
+- Ujjain
+- Thiruvananthapuram
+- Nagpur
+- Rajanna Sircilla
+- Gonda
+- Siddipet
+- South 24 Parganas
+- Imphal West
+- Jhunjhunu
+- Khunti
+- Tirupathur
+- Jalandhar
+- Morbi
+- Baksa
+- Godda
+- Tuensang
+- Amethi
+- Singrauli
+- Palamu
+- Kathua
+- Nandurbar
+- Viluppuram
+- Bahraich
+- Tawang
+- Deoghar
+- Kurnool
+- Kamrup
+- Alappuzha
+- Baloda Bazar
+- Garhwa
+- Yadgir
+- Bargarh
+- Mulugu
+- Shahdara
+- Raipur
+- Shimla
+- Dhubri
+- Kalimpong
+- Sirohi
+- Purulia
+- Jamui
+- Dahod
+- Tarn Taran
+- Udupi
+- Tiruchirappalli
+- Kamjong
+- Ranga Reddy
+- Alwar
+- Basti
+- South Delhi
+- Namakkal
+- East Singhbhum
+- Koppal
+- Chhota Udaipur
+- Uttar Dinajpur
+- Nalbari
+- Bhadrak
+- Hoshangabad
+- Ramanathapuram
+- Budgam
+- Balangir
+- Hapur
+- Madhubani
+- S.A.S. Nagar
+- Buxar
+- Dharwad
+- Gaya
+- Gandhinagar
+- Khordha
+- Tikamgarh
+- Reasi
+- Unokoti
+- Jharsuguda
+- Chhindwara
+- Mahe
+- North Delhi
+- Buldhana
+- Mirzapur
+- Madurai
+- Dausa
+- Narayanpet
+- Sitamarhi
+- Latur
+- Solan
+- East Khasi Hills
+- Khammam
+- West Garo Hills
+- Sant Kabir Nagar
+- Damoh
+- Tiruppur
+- North Goa
+- Sindhudurg
+- Uttarkashi
+- Nagaon
+- Shahjahanpur
+- Goalpara
+- Chirang
+- Rajkot
+- Balrampur
+- Gumla
+- Vijayapura
+- Kaimur
+- Thoubal
+- Komaram Bheem
+- Ramban
+- Bishnupur
+- Jalpaiguri
+- Surajpur
+- Mandla
+- Guntur
+- Jind
+- Gurdaspur
+- Barnala
+- Rohtas
+- Vizianagaram
+- Jhajjar
+- Sangli
+- Cuttack
+- Shahdol
+- Pratapgarh
+- Kolkata
+- Nayagarh
+- Chandauli
+- Ferozepur
+- Medak
+- Mayurbhanj
+- East Champaran
+- Nashik
+- Jaunpur
+- Nagarkurnool
+- Bhiwani
+- Jodhpur
+- Tirunelveli
+- Nuapada
+- Nawada
+- Sambalpur
+- Jalore
+- Bareilly
+- Surguja
+- Lohit
+- Malappuram
+- Fatehgarh Sahib
+- Jangaon
+- Ghazipur
+- Yamunanagar
+- Dungarpur
+- Sangareddy
+- Panchmahal
+- Gorakhpur
+- Chittoor
+- Nanded
+- Cachar
+- Aravalli
+- Bhadohi
+- Dhamtari
+- Dewas
+- Kushinagar
+- Rewa
+- Faridkot
+- West Godavari
+- Ayodhya
+- Bhopal
+- Dibrugarh
+- Lalitpur
+- Subarnapur
+- Sirmaur
+- Perambalur
+- Ramgarh
+- North Garo Hills
+- Yadadri Bhuvanagiri
+- South Sikkim
+- Pakur
+- Dehradun
+- Warangal Urban
+- Ranipet
+- Dhalai
+- Khowai
+- Namsai
+- Ahmednagar
+- Bageshwar
+- Mandya
+- Morigaon
+- Sambhal
+- Amravati
+- Thoothukkudi
+- Nilgiris
+- Unnao
+- Ludhiana
+- Indore
+- Biswanath
+- Sidhi
+- Chitradurga
+- Navsari
+- Parbhani
+- Washim
+- Mahasamund
+- Bongaigaon
+- West Singhbhum
+- Osmanabad
+- Chhatarpur
+- Charkhi Dadri
+- Ambedkar Nagar
+- Italians
+- Alipurduar
+- Theni
+- Sabarkantha
+- Rajouri
+- Bengaluru Urban
+- South Andaman
+- Amroha
+- Bundi
+- Shopiyan
+- Raichur
+- Chandigarh
+- Sikar
+- Anantnag
+- Jamtara
+- Puri
+- Sheikhpura
+- Kamareddy
+- Chatra
+- Tehri Garhwal
+- Kishanganj
+- Golaghat
+- Mehsana
+- Baran
+- Azamgarh
+- Hisar
+- Barmer
+- Saharanpur
+- Tinsukia
+- Cuddalore
+- Srinagar
+- Nizamabad
+- Nainital
+- Kishtwar
+- Munger
+- Rewari
+- Khagaria
+- Darbhanga
+- Lakhimpur
+- Nirmal
+- Wayanad
+- Prakasam
+- Pune
+- Thiruvarur
+- Dhar
+- Pathanamthitta
+- Tapi
+- Mathura
+- South East Delhi
+- Raisen
+- North Tripura
+- Kasganj
+- Chandel
+- Gadag
+- Khargone
+- Karbi Anglong
+- Mahoba
+- Moga
+- Junagadh
+- Pathankot
+- Kanpur Dehat
+- Bathinda
+- West Champaran
+- Punch
+- Lakhimpur Kheri
+- Gautam Buddha Nagar
+- Visakhapatnam
+- Rajnandgaon
+- Raigarh
+- Sirsa
+- Idukki
+- Mancherial
+- Barpeta
+- Patiala
+- Ratnagiri
+- Krishnagiri
+- Meerut
+- Kullu
+- Bikaner
+- Mahendragarh
+- BSF Camp
+- South West Delhi
+- Kodagu
+- Kangra
+- Mainpuri
+- Saharsa
+- Dima Hasao
+- Barwani
+- Jashpur
+- Kancheepuram
+- Shahid Bhagat Singh Nagar
+- Kokrajhar
+- Gondia
+- Angul
+- Mandsaur
+- Vadodara
+- Ratlam
+- Udhampur
+- Gir Somnath
+- Umaria
+- Bastar
+- Raigad
+- Banswara
+- Ghaziabad
+- Bhandara
+- Muzaffarnagar
+- Devbhumi Dwarka
+- Bandipora
+- Bhagalpur
+- Ganderbal
+- Saran
+- Rohtak
+- Vellore
+- Malda
+- Jayashankar Bhupalapally
+- Wanaparthy
+- Rae Bareli
+- Uttar Bastar Kanker
+- Beed
+- South West Garo Hills
+- Bharatpur
+- Bilaspur
+- Varanasi
+- North 24 Parganas
+- Jalna
+- Jabalpur
+- Balasore
+- Surendranagar
+- Airport Quarantine
+- Fazilka
+- Rayagada
+- Balaghat
+- Kaushambi
+- Muzaffarpur
+- Jorhat
+- Hojai
+- Etawah
+- Nuh
+- Dholpur
+- Palwal
+- Narmada
+- Sangrur
+- Khandwa
+- Kanyakumari
+- Purnia
+- Suryapet
+- Mumbai
+- Jhalawar
+- Kutch
+- Coimbatore
+- Changlang
+- Churu
+- Kendrapara
+- Krishna
+- Samastipur
+- Sawai Madhopur
+- Tiruvannamalai
+- Shajapur
+- West Tripura
+- Fatehpur
+- Aurangabad
+- Mahisagar
+- Agar Malwa
+- Ariyalur
+- Vidisha
+- Gariaband
+- Lakhisarai
+- Nalgonda
+- Hamirpur
+- Korba
+- Central Delhi
+- Chikkamagaluru
+- Jehanabad
+- Kalahandi
+- Kollam
+- Janjgir Champa
+- Latehar
+- Virudhunagar
+- Pauri Garhwal
+- Ganganagar
+- Palghar
+- Gurugram
