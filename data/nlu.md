@@ -24,9 +24,17 @@
 - [india](country)
 - [africa](country)
 - [usa](country)
-- [us]{"entity": "country", "value": "United States of America"}
-- [America]{"entity": "country", "value": "United States of America"}
-- [uk]{"entity": "country", "value": "United Kingdom"}
+- [us](country)
+- [America](country)
+- [uk](country)
+- [New Zealand](country)
+- [Italy](country)
+- [Iraq](country)
+- [Brazil](country)
+- [Spain](country)
+- [Kenya](country)
+- [Poland](country)
+- [Canada](country)
 
 
 ## intent:total_search
@@ -49,8 +57,32 @@
 - cases in [punjab](location)
 - cases in [haryana](location)
 - [delhi](location)
+- [New Delhi](location)
 - [goa](location)
 - [gujrat](location)
+- [Assam](location)
+- [Manipur](location)
+- [Meghalaya](location)
+- [Mizoram](location)
+- [Madhya Pradesh](location)
+- [Nagaland](location)
+- [Odisha](location)
+- [Puducherry](location)
+- [Pondicherry](location)
+- [Punjab](location)
+- [Rajasthan](location)
+- [Sikkim](location)
+- [Tamil Nadu](location)
+- [Telengana](location)
+
+
+
+## synonym:Delhi
+- New Delhi
+- dilli
+- Delhi
+- Capital
+
 
 
 ## intent:city_search
@@ -74,6 +106,18 @@
 - [mumbai](city)
 - [gandhinagar](city)
 - [kolkata](city)
+- [Panipat](city)
+- [Dindori](city)
+- [Hardoi](city)
+- [Chengalpattu](city)
+- [Thanjavur](city)
+- [Karnal](city)
+- [Ajmer](city)
+- [Darjeeling](city)
+- [Sultanpur](city)
+- [Peddapalli](city)
+- [Araria](city)
+- [Jaipur](city)
 
 
 ## synonym:Mumbai
@@ -497,7 +541,6 @@
 - Dakshin Dinajpur
 - Kapurthala
 - Karimganj
-- North East Delhi
 - South Salmara Mankachar
 - Nagapattinam
 - Sonipat
@@ -528,7 +571,6 @@
 - Budaun
 - Jammu
 - Dadra and Nagar Haveli
-- East Delhi
 - Alirajpur
 - Gadchiroli
 - Karaikal
@@ -536,8 +578,6 @@
 - Nalanda
 - Pithoragarh
 - Satara
-- Unknown
-- West Delhi
 - Udham Singh Nagar
 - Karauli
 - Mandi
@@ -582,7 +622,6 @@
 - Charaideo
 - Jamnagar
 - Hanumangarh
-- New Delhi
 - Haveri
 - Jaisalmer
 - Banda
@@ -683,7 +722,6 @@
 - Giridih
 - Papum Pare
 - Hazaribagh
-- North West Delhi
 - Jalgaon
 - Betul
 - Bokaro
@@ -767,7 +805,6 @@
 - Ranga Reddy
 - Alwar
 - Basti
-- South Delhi
 - Namakkal
 - East Singhbhum
 - Koppal
@@ -793,7 +830,6 @@
 - Jharsuguda
 - Chhindwara
 - Mahe
-- North Delhi
 - Buldhana
 - Mirzapur
 - Madurai
@@ -968,7 +1004,6 @@
 - Pathanamthitta
 - Tapi
 - Mathura
-- South East Delhi
 - Raisen
 - North Tripura
 - Kasganj
@@ -1001,7 +1036,6 @@
 - Bikaner
 - Mahendragarh
 - BSF Camp
-- South West Delhi
 - Kodagu
 - Kangra
 - Mainpuri
@@ -1090,7 +1124,6 @@
 - Nalgonda
 - Hamirpur
 - Korba
-- Central Delhi
 - Chikkamagaluru
 - Jehanabad
 - Kalahandi

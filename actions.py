@@ -114,7 +114,7 @@ class ActionCasesSearchCity(Action):
                 l=[]
                 l = list(x[abc]['districts'].keys())
                 for i in l:
-                    if fuzz.ratio(i,dis_name) >= 80:
+                    if fuzz.ratio(i,dis_name) >= 90:
                         dic = {'city': 'Dont Know','confirmed': 0, 'deceased': 0, 'recovered': 0}
                         dname = x[abc].get('districts')
                         dname = dname[dis_name]['total']

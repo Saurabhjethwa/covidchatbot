@@ -219,6 +219,44 @@
 
 
 
+
+## search corona cases many times city + location + country + total (Direct)
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+* city_search{"city":"Mumbai"}
+	- action_cases_search_city
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+* country_search{"country":"United States of America"}
+	- action_cases_search_country
+* total_search
+	- action_cases_search_total
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+* country_search{"country":"United States of America"}
+	- action_cases_search_country
+* city_search{"city":"Mumbai"}
+	- action_cases_search_city
+* total_search
+	- action_cases_search_total
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+* country_search{"country":"United States of America"}
+	- action_cases_search_country
+* search_provider{"location":"Delhi"}
+	- action_cases_search
+
+
+
+
+
+
 ## happy path
 * greet
   - utter_greet
