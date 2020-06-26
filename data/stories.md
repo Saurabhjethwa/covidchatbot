@@ -332,3 +332,17 @@
 * country_search{"GPE":"russia","country":"russia"}
     - slot{"country":"russia"}
     - action_cases_search_country
+
+## New Story
+
+* created_by
+    - utter_i_am_jethwa
+* search_provider{"GPE":"nepal","country":"nepal"}
+    - slot{"country":"nepal"}
+    - action_cases_search_country
+* search_provider{"GPE":"Delhi","location":"Delhi"}
+    - slot{"location":"Delhi"}
+    - action_cases_search
+* country_search{"GPE":"greece","country":"greece"}
+    - slot{"country":"greece"}
+    - action_cases_search_country
